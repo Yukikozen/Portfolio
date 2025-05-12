@@ -1,0 +1,109 @@
+/*.project-gallery {
+  padding-top: 60px;  Adjust the padding-top to add space at the top 
+}
+
+.project-gallery h1 {
+  margin-top: 20px;  Add margin to the top of the title 
+}
+
+.project-item {
+  border: 1px solid #ccc;
+  border-radius: 10px;  Adjust the border-radius to control the roundness 
+  overflow: hidden;
+  width: 250px;  Set a fixed width for the project item 
+  height: 200px;  Set a fixed height for the project item 
+  margin-top: 20px;  Add space at the top of each project item 
+}
+
+.project-item img {
+  width: 100%;  Ensure the image fills the container horizontally 
+  height: 100%;  Ensure the image fills the container vertically 
+  object-fit: cover;  Ensure the entire image is visible without cropping 
+  border-radius: 10px;  Match the border-radius with the container 
+}
+
+.project-item h2 {
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;  Center the grid horizontally 
+  margin: 0 auto;  Center the container itself 
+  max-width: 1200px;  Set a maximum width for the container to prevent it from extending too far 
+}
+
+
+.project-description {
+  margin-left: 20px;  Add space between image and description 
+}
+
+.project-description h2 {
+  margin-top: 0;  Remove default margin from heading 
+}
+
+.project-description p {
+  margin-top: 5px;  Add space between heading and paragraph 
+}*/
+
+
+.project-gallery {
+    padding-top: 60px;
+  }
+
+  .project-gallery h1 {
+    margin-top: 20px;
+  }
+
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .project-description {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .project-description h2 {
+    margin-top: 0;
+  }
+
+  .project-description p {
+    margin-top: 5px;
+  }
+
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-container {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+}
+
+.project-item {
+    margin: 20px; /* Add some margin around each project item */
+    text-align: center; /* Align the content (including image) to the center */
+}
+.project-description {
+    margin-top: 10px; /* Add some space between image and description */
+    flex: 1; /* Allow project description to expand */
+}

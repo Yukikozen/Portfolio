@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 3, 2024, 10:26:09 PM
+    Author     : Qiaoyan
+*/
+
+ body {
+      font-family: Arial, sans-serif;
+      /*line-height: 1.6;*/
+    }
+    .container1 {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center; /* Align content to the center */
+    }
+    h1 {
+      margin-top: 0;
+    }
+    hr {
+      margin: 20px auto; /* Center the hr element */
+      border: none;
+      border-top: 1px solid #ccc;
+      width: 50%;
+    }
+    
+      .about-me {
+      background-color: #fff; /* Set background color for the section */
+      padding: 20px;
+      border-radius: 10px; /* Add rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+    }
+    .about-me h2 {
+      margin-top: 0;
+      color: #007bff; /* Set heading color */
+    }
+     .about-me p {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+    
+  .contact-info {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .contact-info h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .contact-info ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .contact-info ul li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .contact-info ul li i {
+      margin-right: 10px;
+    }
+    .contact-info ul li a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .contact-info ul li a:hover {
+      text-decoration: underline;
+    }
